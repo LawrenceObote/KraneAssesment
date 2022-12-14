@@ -11,7 +11,7 @@ GET_POSTS: "/api/post"
 Client-side `UPLOAD_POST` payload: 
 ```
 title: title,
-text_body: body,
+textBody: body,
 ```
 
 Expected returns

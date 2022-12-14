@@ -52,7 +52,7 @@ function LandingPage() {
     try {
       const { data } = await axios.post(API_ENDPOINT.UPLOAD_POST, {
         title: title,
-        text_body: body,
+        textBody: body,
       });
       setPosts(() => [data, ...posts]);
       setTitle(undefined);
